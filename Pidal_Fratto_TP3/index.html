@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Museo Nacional de Bellas Artes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- EMPIEZA EL NAV BAR -->
+
+  <nav id="barra" class="navbar navbar-expand-lg">
+    <div class="container">
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" href="index.html" alt="logo" width="60" height="40">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <b><a class="nav-link" aria-current="VISITA" href="quienes-somos.html">QUIENES SOMOS</a></b>
+          </li>
+          <li class="nav-item">
+            <b><a class="nav-link" href="colecciones.html">COLECCIONES</a></b>
+          </li>
+          <li class="nav-item">
+            <b> <a class="nav-link" href="merchandising.html">MERCHANDISING</a></b>
+          </li>
+          <li class="nav-item">
+            <b> <a class="nav-link" href="contacto.html">CONTACTO</a></b>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- TERMINA EL NAV BAR -->
+
+  <!-- EMPIEZA EL HEADER -->
+  <header class="intro py-5">
+    <div class="container">
+      <div class="row justify-content-left align-item-left g-2">
+        <div class="col-4 text-left ">
+          <div>
+            <h1 class="display-2 fw-bold" id="titulogrande">
+              MUSEO NACIONAL DE BELLAS ARTES
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- TERMINA EL HEADER -->
+  <!-- EMPIEZA EL CALL TO ACTION -->
+  <section class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 mb-3">¡SORTEO!</h1>
+        <h2 class="display-4 lh-1 mb-3">Inscribite para participar de dos entradas gratis</h2>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <div class="p-4 p-md-5 border rounded-3 bg-light">
+          <div class="form-floating mb-3">
+            <input type="form-control" name="nombres" class="form-control" id="nombres" placeholder="nombres">
+            <label for="contanos">Nombre y apellido</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="form-control" name="mail" class="form-control" id="mail" placeholder="name@example.com">
+            <label for="mail">Mail </label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="form-control" name="contanos" class="form-control" id="contamos" placeholder="palabras">
+            <label for="contanos">¿Por qué tenes que ganarlo?</label>
+          </div>
+          <hr class="my-4">
+          <a class="w-100 btn btn-lg " type="submit"
+            href="mailto:elcorreoquequieres@correo.com?Subject=Aquí%20el%20asunto%20del%20mail">ENVIAR</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TERMINA EL CALL TO ACTION -->
+
+  <!-- EMPIEZA pastillas de información -->
+  <section class="container px-4 py-5 align-items-center">
+    <h1 class="pb-2 border-bottom text-center text-lg-start">¡Información sobre nosotros!</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex">
+        <div class="icon-square text-dark flex-shrink-0 me-3">
+          <i class="bi bi-file-person"></i>
+        </div>
+        <div>
+          <h2>Obras de arte</h2>
+          <p id="color">Mirá algunas de nuestras obras.</p>
+          <button class="btn rounded" type="boton">¡Hace click!</button>
+          <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square  text-dark flex-shrink-0 me-3">
+          <i class="bi bi-file-music-fill"></i>
+        </div>
+        <div>
+          <h2>Eventos</h2>
+          <p id="color">Disfrutá con toda tu familia.</p>
+
+          <button class="btn rounded" type="boton">¡Hace click!</button>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-dark flex-shrink-0 me-3">
+          <i class="bi bi-bank2"></i>
+        </div>
+        <div>
+          <h2>Visitas guiadas </h2>
+          <p id="color">Elegí la fecha que más te guste.</p>
+          <button class="btn rounded" type="boton">¡Hace click!</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TERMINA pastillas de información -->
+  <!--EMPIEZA LA GALERÍA-->
+  <section>
+    <h1 class="px-5"> Galería con obras</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4 row-cols-lg-4 px-3 py-5">
+      <div class="col container shadow p-3 mb-5 rounded">
+        <div class="card h-100">
+          <img src="img/foto1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salvador Dalí</h5>
+            <p class="card-text">Tenemos obras expuestas de este artista quien fué un pintor, escultor, grabador,
+              escenógrafo y escritor español del siglo XX.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col container shadow p-3 mb-5 rounded">
+        <div class="card h-100">
+          <img src="img/foto2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jean Arp</h5>
+            <p class="card-text">Otra sección es la de Jean Arp que fue uno de los fundadores del movimiento
+              conocido como dadaísmo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col container shadow p-3 mb-5 rounded">
+        <div class="card h-100">
+          <img src="img/foto3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Marcel Duchamp</h5>
+            <p class="card-text">También tenemos obras de Marcel Duchamp, especialmente conocido por su actividad
+              artística, lo cual sus obras ejercieron una fuerte influencia en la evolución del dadaísmo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col container shadow p-3 mb-5 rounded">
+        <div class="card h-100">
+          <img src="img/foto4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Max Ernst</h5>
+            <p class="card-text">otra sección muy conocida de nuestro museo es la de Max Ernst, que fue considerado
+              figura fundamental tanto en el movimiento dadá como en el surrealismo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--TERMINA LA GALERÍA-->
+  <!--EMPIEZA CARRUSEL-->
+  <section>
+    <h1 class="px-5" id="testimonio">Testimoniales de visitantes</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/familia lee.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/familia james.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/familia zion.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/familia bianchi.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  <!--TERMINA CARRUSEL-->
+  <!-- EMPIEZA EL FOOTER -->
+  <footer>
+    <section class="container-fluid text-light" id="footer">
+      <div class="row col-lg-12 col-md-12 col-sm-12">
+        <div class="col-sm-12 col-md-12 row-cols-lg-4 text-center py-2">
+          <button type="button" class="redes">
+            <img src="img/logoface.png" width="40px" height="40px" alt="facebook"></button>
+          <button type="button" class="redes">
+            <img src="img/logoinsta.png" width="40px" height="40px" alt="instagram"></button>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-sm-12 col-md-12 col-lg-4 text-center" id="tel">
+          <p>
+            +54 (011) 5288-9900
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 text-center" id="tel">
+          <p>
+            info@mnba.gob.ar
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 text-center" id="tel">
+          <p>
+            Av. Del Libertador 1473
+            CABA, Argentina
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- TERMINA EL FOOTER -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

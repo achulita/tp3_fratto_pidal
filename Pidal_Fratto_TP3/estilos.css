@@ -1,0 +1,125 @@
+body{
+    background-color: #f0ebe3;
+}
+header{
+    background-image: url("img/foto6.jpg");
+}
+#titulogrande{
+    color: #f0ebe3;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+h1{
+    padding-top: 0px;
+    font-family: 'DM Sans', sans-serif;
+    color: #922923;
+}
+h2{
+    color: #922923;
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size:large;
+}
+p{
+    color: #f0ebe3;
+    font-family: 'DM Sans', sans-serif;
+}
+#biografia{
+padding-left: 30px;
+padding-top: 70px;
+}
+#artista{
+    padding-top: 30px;
+}
+#fondito{
+    background-color: black;
+}
+.accordion-button{
+    color: #922923;
+    font-family: 'Oswald', sans-serif;
+}
+#textoacordion{
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+#tituloobras{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+#obras{
+    background-color: #f0ebe3;
+
+}
+#barra{
+    background-color: #f0ebe3;
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+button.accordion-button.collapsed{
+    background-color: #bab3a3;
+}
+#collapseOne{
+    background-color: #f0ebe3;
+}
+#collapseTwo{
+    background-color: #f0ebe3;
+}
+#collapseThree{
+    background-color: #f0ebe3;
+}
+.accordion-button:not(.collapsed){
+    color: white var(--bs-accordion-active-color);
+    background-color: #bab3a3;
+}
+.card-body{
+    background-color: #bab3a3;
+    border-radius: 10px;
+}
+.card{
+    border-color: #bab3a3;
+    border-radius: 10px;
+}
+.card-text{
+color: black;
+}
+#botoncitos{
+    background-color: #922923;
+    color: #f0ebe3;
+}
+.btn{
+    background-color: #922923;
+    color: #f0ebe3;
+}
+#exampleModalLabel{
+    color: #922923;
+    font-family: 'DM Sans', sans-serif;
+}
+#footer{
+    padding-top: 30px;
+    background-color: black;
+}
+#tel{
+    padding-top: 10px;
+    color: #f0ebe3;
+    font-size: large;
+}
+.redes{
+    background-color: black;
+}
+#galeria{
+   padding-top: 15px; 
+}
+#color{ 
+    color: black;
+}
+#testimonio{
+    padding-top: 80px;
+}
+.boton{
+    background-color: #922923;
+    color: #f0ebe3;
+}
